@@ -1,0 +1,28 @@
+.poppins{
+  font-family: 'Poppins', sans-serif;
+}
+.roboto{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+hr{
+  position: absolute;left: 47%;
+  width: 1px;
+  height: 640px;
+  background:  #BABABA;
+}
+
+span{
+   position: absolute;left: 46.5%;top: 740px;
+   background: white;
+   color:#BABABA;
+   padding: 20px 0;
+}
+
+@media (max-width:810px) {
+ hr{
+  display: none;
+ }
+ span{
+   display: none;
+}
+}
